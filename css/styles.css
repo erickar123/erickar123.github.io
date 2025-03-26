@@ -507,7 +507,7 @@ body{
 
 }
 
-@media (max-width:600px){
+@media (max-width:300px){
     .hero__title{
         font-size: 2rem;
     }
