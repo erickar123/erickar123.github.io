@@ -12,10 +12,6 @@
         menu.classList.remove('nav__link--show');
     });
 
-    menuLinks.forEach(menuLinks =>{
-        menuLinks.addEventListener('click', function() {
-            menu.classList.remove('menu');
-        })
-    });
+    
 
 })();
