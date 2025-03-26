@@ -408,7 +408,7 @@ body{
     }
 
     .nav__link--menu{
-        position: sticky;
+        position: fixed;
         background-color: #000;
         top: 0;
         left: 0;
@@ -507,7 +507,7 @@ body{
 
 }
 
-@media (max-width:300px){
+@media (max-width:320px){
     .hero__title{
         font-size: 2rem;
     }
@@ -517,7 +517,7 @@ body{
     }
 
     .subtitle{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .testimony{
@@ -569,13 +569,4 @@ body{
     }
 }
 
-.map__container{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.map__title{
-    font-weight: 300;
-}
 
